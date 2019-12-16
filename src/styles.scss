@@ -1,0 +1,157 @@
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 100;
+  color: #333;
+  background-color: #eee;
+  text-align: center;
+}
+
+button {
+    cursor: pointer;
+    background-color: #339;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    -webkit-transition: background 0.25s ease-in-out;
+    -o-transition: background 0.25s ease-in-out;
+    transition: background 0.25s ease-in-out;
+
+    &:hover {
+        background-color: #66c;
+    }
+}
+
+header {
+    margin-top: 20px;
+}
+
+main {
+    margin: 20px 0;
+
+    ul.list-container {
+        width: 90%;
+        margin: 0 auto;
+
+
+        li.row {
+            background: #ddd;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -webkit-flex-direction: row;
+                -ms-flex-direction: row;
+                    flex-direction: row;
+            -webkit-box-pack: space-evenly;
+            -webkit-justify-content: space-evenly;
+                -ms-flex-pack: space-evenly;
+                    justify-content: space-evenly;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            padding: 5px 0;
+            cursor: pointer;
+            -webkit-transition: background 0.25s ease-in-out;
+            -o-transition: background 0.25s ease-in-out;
+            transition: background 0.25s ease-in-out;
+
+            &:nth-of-type(odd){
+                background: #ccc;
+            }
+
+            &:hover {
+                background: #fff;
+            }
+
+            &.selected {
+                background-color: #ccffcc;
+            }
+
+            .selected {
+                width: 10%;
+            }
+
+            .name {
+                text-align: left;
+                width: 25%;
+            }
+
+            .value {
+                text-align: right;
+                width: 20%;
+            }
+
+            .date {
+                width: 35%;
+                text-align: right;
+            }
+
+            .delete {
+                width: 10%;
+            }
+        }
+    }
+
+    div.sort-container {
+        margin: 10px 0 0 0;
+    }
+
+    div.add-container {
+        background-color: #ddd;
+        margin: 10px auto;
+        padding: 10px 0;
+        width: 90%;
+        border-radius: 10px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+
+        div {
+            margin-right: 10px;
+
+            input {
+                height: 25px;
+                padding: 0 5px;
+                font-size: 1.05rem;
+            }
+        }
+    }
+
+    svg {
+        width: 22px;
+        height: 22px;
+        opacity: 0.75;
+        -webkit-transition: opacity 0.25s ease-in-out;
+        -o-transition: opacity 0.25s ease-in-out;
+        transition: opacity 0.25s ease-in-out;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}
