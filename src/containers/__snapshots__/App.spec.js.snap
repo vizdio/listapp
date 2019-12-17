@@ -45,6 +45,12 @@ exports[`My Connected React-Redux Component should render with given state from 
         >
           October 29, 2019 4:35pm
         </time>
+        <time
+          className="date mobile"
+          dateTime={"2019-10-29T20:35:50.000Z"}
+        >
+          10/29/2019 4:35pm
+        </time>
         <div
           className="delete"
         >
@@ -83,6 +89,12 @@ exports[`My Connected React-Redux Component should render with given state from 
           dateTime={"2019-12-03T14:12:30.000Z"}
         >
           December 03, 2019 9:12am
+        </time>
+        <time
+          className="date mobile"
+          dateTime={"2019-12-03T14:12:30.000Z"}
+        >
+          12/03/2019 9:12am
         </time>
         <div
           className="delete"
@@ -123,6 +135,12 @@ exports[`My Connected React-Redux Component should render with given state from 
         >
           October 18, 2019 3:22am
         </time>
+        <time
+          className="date mobile"
+          dateTime={"2019-10-18T07:22:30.000Z"}
+        >
+          10/18/2019 3:22am
+        </time>
         <div
           className="delete"
         >
@@ -162,6 +180,12 @@ exports[`My Connected React-Redux Component should render with given state from 
         >
           October 06, 2019 1:52pm
         </time>
+        <time
+          className="date mobile"
+          dateTime={"2019-10-06T17:52:30.000Z"}
+        >
+          10/06/2019 1:52pm
+        </time>
         <div
           className="delete"
         >
@@ -200,6 +224,12 @@ exports[`My Connected React-Redux Component should render with given state from 
           dateTime={"2019-10-29T21:42:30.000Z"}
         >
           October 29, 2019 5:42pm
+        </time>
+        <time
+          className="date mobile"
+          dateTime={"2019-10-29T21:42:30.000Z"}
+        >
+          10/29/2019 5:42pm
         </time>
         <div
           className="delete"
