@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 To test the code you can first pull this repository to your local machine.
 
-You will then need to have Node.js installed on your machine and navigate to the root listapp directory and install npm
+You will then need to have Node.js installed on your machine and navigate to the root listapp directory and install npm  
     `npm install`
 
 Test the app with:  
@@ -22,6 +22,7 @@ Build:
 ## You can view a sample deployed build of the app at: [http://199.66.67.16/listapp/](http://199.66.67.16/listapp/)
 
 There are some required dependancies that you may need to install if testing the app fails:
+
     * moment, react-moment: for formatting the timestamp to display nicely  
         `npm install --save moment react-moment`
 
