@@ -16,7 +16,7 @@ Run unit test:
     `npm test`
 
 Build:  
-    `npm build`
+    `npm run build`
 
 
 ## You can view a sample deployed build of the app at: [http://199.66.67.16/listapp/](http://199.66.67.16/listapp/)

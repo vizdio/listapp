@@ -33,6 +33,7 @@ const DisplayList = ({ listItems, onListItemClick, onDeleteClick, onAddClick, on
                                     prefix={'$'} />
                             </div>
                             <Moment className="date" format="MMMM DD, YYYY h:mma">{item.created}</Moment>
+                            <Moment className="date mobile" format="MM/DD/YYYY h:mma">{item.created}</Moment>
                             <div className="delete">
                                 <Delete onClick={(e) => {e.stopPropagation(); onDeleteClick(index)}} />
                             </div>
