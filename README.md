@@ -19,8 +19,6 @@ Build:
     `npm run build`
 
 
-## You can view a sample deployed build of the app at: [http://199.66.67.16/listapp/](http://199.66.67.16/listapp/)
-
 There are some required dependancies that you may need to install if testing the app fails:
 
 * moment, react-moment: for formatting the timestamp to display nicely  
